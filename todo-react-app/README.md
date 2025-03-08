@@ -1,12 +1,45 @@
-# React + Vite
+# 📝 To-Do App  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, powerful, and responsive **To-Do List App** built with **React, Redux, Tailwind CSS, and Vercel**.  
+It helps users **organize tasks efficiently**, sort tasks by date, and toggle dark mode.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features  
 
-## Expanding the ESLint configuration
+ **Add & Delete Tasks** – Quickly add and remove tasks  
+ **Task Prioritization** – Set task priority (High, Medium, Low)  
+ **Task Sorting** – Sort tasks by **Today, Future, and Past**  
+ **Task Completion** – Mark tasks as completed with a checkbox  
+ **Dark Mode Support** – Toggle between **light & dark themes**  
+ **Persistent Storage** – Saves tasks using **LocalStorage**  
+ **AI Suggestions** – Get smart task suggestions using **Gemini AI**  
+ **Weather API Integration** – Fetch live weather data for outdoor tasks  
+ **Fully Responsive** – Works on **mobile, tablet, and desktop**  
+ **Vercel Deployment** – Hosted for easy access  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🔧 Installation & Setup  
+
+### 1️⃣ Clone the Repository  
+```sh
+git clone https://github.com/YOUR_GITHUB_USERNAME/to-do-app.git
+cd to-do-app
+```
+### 2️⃣ Install Dependencies
+```sh
+npm install
+```
+### 3️⃣ Start the Development Server
+```sh
+npm run dev
+```
+## 👨‍💻 Tech Stack  
+
+- **Frontend**: React, Tailwind CSS  
+- **State Management**: Redux Toolkit  
+- **API Integration**: Gemini AI, WeatherStack API  
+- **Deployment**: Vercel  
+
+
