@@ -6,8 +6,8 @@ import TaskInput from "../components/TaskInput";
 import TaskList from "../components/TaskList";
 import { BsSun, BsMoon } from "react-icons/bs";
 import { FiLogOut } from "react-icons/fi";
-import { MdDateRange, MdMenu, MdClose } from "react-icons/md"; // Hamburger & Close Icons
-import { FaSort, FaTasks, FaStar } from "react-icons/fa"; // Task Icons
+import { MdDateRange, MdMenu, MdClose } from "react-icons/md"; 
+import { FaSort, FaTasks, FaStar } from "react-icons/fa";
 
 const Home = () => {
   const isAuthenticated = useSelector((state) => state.auth.isAuthenticated);
@@ -16,7 +16,7 @@ const Home = () => {
   const [darkMode, setDarkMode] = useState(
     localStorage.getItem("darkMode") === "true"
   );
-  const [sidebarOpen, setSidebarOpen] = useState(true); // Sidebar State
+  const [sidebarOpen, setSidebarOpen] = useState(true);
 
   useEffect(() => {
     document.body.classList.toggle("dark", darkMode);
