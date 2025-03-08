@@ -12,7 +12,7 @@ const Login = ({ darkMode }) => {
 
   const handleLogin = () => {
     dispatch(login());
-    navigate("/home"); // Redirect to Home after login
+    navigate("/home");
   };
 
   return (
